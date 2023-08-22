@@ -1,24 +1,21 @@
 # ----
 # Site
 
-title: Hydra Template
-url: "https://proud-alligator.cloudvent.net"
+title: ZXS Consulting
+url: "https://zxs.ch"
 baseurl:
-google_analytics_key:
-google_maps_javascript_api_key:
-disqus_shortname:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: Product marketing template for Jekyll.
+description: Zxs provides infosec consulting with a focus on growing individual contributors' careers as well as helping early stage companies.
 author:
-  name:
+  name: Alok Menghrajani
   email:
   twitter: # twitter username without the @ symbol
 social:
-  name: Hydra Template
+  name: ZXS Consulting
   links:
-    - https://github.com/CloudCannon/hydra-jekyll-template
+    - https://zxs.ch/
 
 # -----
 # Build
@@ -31,7 +28,7 @@ collections:
 
 paginate: 10
 paginate_path: "/blog/:num/"
-permalink: pretty
+permalink: /:year/:month/:day/:title/
 
 defaults:
   - scope:
@@ -79,20 +76,13 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
-  - LICENCE
+  - LICENSE
 
 # -----------
 # CloudCannon
 
 _select_data:
   social_icons:
-    - Facebook
-    - Instagram
-    - LinkedIn
-    - Pinterest
-    - Tumblr
-    - Twitter
-    - YouTube
     - RSS
 
 _comments:
