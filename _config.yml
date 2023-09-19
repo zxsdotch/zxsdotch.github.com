@@ -7,7 +7,7 @@ baseurl:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: Zxs provides infosec consulting with a focus on growing individual contributors' careers as well as helping early stage companies.
+description: "Zxs: infosec consulting for early stage companies."
 author:
   name: Alok Menghrajani
   email:
