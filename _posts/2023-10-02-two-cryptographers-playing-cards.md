@@ -11,4 +11,4 @@ I [tooted](https://infosec.exchange/@alok/111161449025589921) the following puzz
 
 As I was preparing my writeup describing a solution to this puzzle, I discovered that this puzzle is well known under the name "mental poker". Rivest, Shamir and Adleman [wrote a paper](https://apps.dtic.mil/dtic/tr/fulltext/u2/a066331.pdf) in 1979.
 
-More recently, Nicolas Mohnblatt published an excellent post titled [Mental Poker in the Age of SNARKs](https://geometry.xyz/notebook/mental-poker-in-the-age-of-snarks-part-1). Instead of boring you with yet another protocol, go read Nicolas' work. Go experiment with this [library](https://github.com/geometryresearch/mental-poker), written using [arkworks](https://github.com/arkworks-rs).
+More recently, Nicolas Mohnblatt published an excellent post titled [Mental Poker in the Age of SNARKs](https://geometry.xyz/notebook/mental-poker-in-the-age-of-snarks-part-1). Instead of boring you with yet another protocol, go read Nicolas' work and experiment with their [library](https://github.com/geometryresearch/mental-poker), written using [arkworks](https://github.com/arkworks-rs).
