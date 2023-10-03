@@ -9,6 +9,8 @@ I [tooted](https://infosec.exchange/@alok/111161449025589921) the following puzz
 >
 > Give extra points to students who come up with simpler protocols, formal proofs, or an actual implementation.
 
-As I was preparing my writeup describing a solution to this puzzle, I discovered that this puzzle is well known under the name "mental poker". Rivest, Shamir and Adleman [wrote a paper](https://apps.dtic.mil/dtic/tr/fulltext/u2/a066331.pdf) in 1979.
+As I was preparing my writeup describing a solution to this puzzle, I discovered that this puzzle is well known under the name "mental poker". Rivest, Shamir and Adleman [wrote a paper](https://apps.dtic.mil/dtic/tr/fulltext/u2/a066331.pdf) (1979).
 
-More recently, Nicolas Mohnblatt published an excellent post titled [Mental Poker in the Age of SNARKs](https://geometry.xyz/notebook/mental-poker-in-the-age-of-snarks-part-1). Instead of boring you with yet another protocol, go read Nicolas' work and experiment with their [library](https://github.com/geometryresearch/mental-poker), written using [arkworks](https://github.com/arkworks-rs).
+More recently, Nicolas Mohnblatt published an excellent post titled [Mental Poker in the Age of SNARKs](https://geometry.xyz/notebook/mental-poker-in-the-age-of-snarks-part-1) (2022). Instead of boring you with yet another protocol, go read Nicolas' work and experiment with their [library](https://github.com/geometryresearch/mental-poker), written using [arkworks](https://github.com/arkworks-rs).
+
+[Matthew Green](https://en.wikipedia.org/wiki/Matthew_D._Green) wrote a great blog post, [Poker is hard, especially for cryptographers](https://blog.cryptographyengineering.com/2012/04/02/poker-is-hard-especially-for/) (2012).
