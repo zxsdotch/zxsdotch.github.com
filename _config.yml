@@ -7,7 +7,7 @@ baseurl:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: "Zxs: infosec consulting for early stage companies."
+description: "Zxs: infosec consulting"
 author:
   name: Alok Menghrajani
   email:
