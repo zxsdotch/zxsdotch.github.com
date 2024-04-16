@@ -34,7 +34,7 @@ GEM
       webrick (~> 1.7)
     jekyll-archives (2.2.1)
       jekyll (>= 3.6, < 5.0)
-    jekyll-feed (0.15.1)
+    jekyll-feed (0.17.0)
       jekyll (>= 3.7, < 5.0)
     jekyll-paginate (1.1.0)
     jekyll-sass-converter (3.0.0)
@@ -78,7 +78,7 @@ PLATFORMS
 DEPENDENCIES
   jekyll (~> 4.3.3)
   jekyll-archives (~> 2.2.1)
-  jekyll-feed (~> 0.15.1)
+  jekyll-feed (~> 0.17.0)
   jekyll-paginate (~> 1.1.0)
   jekyll-seo-tag (~> 2.8.0)
   jekyll-sitemap (~> 1.4.0)
