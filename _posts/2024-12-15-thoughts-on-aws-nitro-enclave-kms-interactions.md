@@ -23,6 +23,9 @@ When AWS KMS returns an encrypted response, the encryption algorithm is currentl
 ## Observation 3: GenerateRandom is probably never useful
 The only safe way to request random bytes (with the intention of increasing one’s entropy pool) from AWS KMS is to first establish a TLS connection, which itself requires having a good source of entropy, a catch-22. What is going on with [Generate random using kmstool-enclave-cli](https://github.com/aws/aws-nitro-enclaves-sdk-c/issues/131)?
 
+In any case, the Enclave has mutiple sources of entropy and can receive additional
+entropy on a case-by-csae basis (e.g. while processing requests).
+
 ## Observation 4: The downside of initiating the TLS handshake from enclaves
 The major downside of initiating the TLS handshake from within enclaves is that any changes to the TLS configuration (e.g. changes in which root certificates are trusted) will be akin to changing your enclave’s code and can result in different PCR values.
 
@@ -34,4 +37,4 @@ We recommend that you configure the TLS client to only use TLS 1.3, secure ciphe
 ## Show don’t tell
 [aws-nitro-enclave-foobar-service](https://github.com/zxsdotch/aws-nitro-enclave-foobar-service) is a piece of Go code we implemented to demonstrate how to securely create and use an AWS KMS-backed key. The code uses both setups (with and without TLS handshake from within the enclave) in a secure way.
 
-AWS’ code examples [kmstool-enclave-cli](https://github.com/aws/aws-nitro-enclaves-sdk-c/tree/main/bin/kmstool-enclave-cli) and [vsock_proxy](https://github.com/aws/aws-nitro-enclaves-cli/blob/main/vsock_proxy) are also correct and good pieces of reference when designing Nitro Enclaves.
+AWS’ code examples [kmstool-enclave-cli](https://github.com/aws/aws-nitro-enclaves-sdk-c/tree/main/bin/kmstool-enclave-cli) and [vsock_proxy](https://github.com/aws/aws-nitro-enclaves-cli/blob/main/vsock_proxy) are equally good references when designing Nitro Enclaves.
